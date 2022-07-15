@@ -30,7 +30,7 @@
 - Não é necessário entregar o código fonte do trabalho prático na forma impressa, mas o mesmo deve estar comentado e seguir as sugestões do guia sempre que possível.
 - O código fonte terá o quesito desenvolvimento avaliado através do endereço GIT indicado pelo grupo e sua versão final deve ser submetida através do Moodle adotando-se os seguintes procedimentos:
 
-- Crie um arquivo makefile contendo uma opção run para compilar todo o código fonte e o executar, além de gerar a saída da execução em um arquivo de nome saida . Essa execução não deve demandar mais do que 30 segundos de processamento, com o objetivo de apenas demonstrar o funcionamento dos programas, sendo que testes de maior duração devem ser apresentados na documentação. No Moodle estão disponíveis um exemplo de um arquivo makefile, bem como exemplos de um programa principal ( main.c ) e e um módulo ( module.c ), ( module.h ) contendo funções usadas pelo programa principal.
+- Crie um arquivo makefile contendo uma opção run para compilar todo o código fonte e o executar, além de gerar a saída da execução em um arquivo de nome saida. Essa execução não deve demandar mais do que 30 segundos de processamento, com o objetivo de apenas demonstrar o funcionamento dos programas, sendo que testes de maior duração devem ser apresentados na documentação. No Moodle estão disponíveis um exemplo de um arquivo makefile, bem como exemplos de um programa principal ( main.c ) e e um módulo ( module.c ), ( module.h ) contendo funções usadas pelo programa principal.
 - Agrupe todos os arquivos fonte ( .c/cpp/java ) e ( .h ), o arquivo =makefile= e os arquivos de entrada do programa (caso existam) usando o aplicativo zip.
 - Submeta o arquivo agrupado através da tarefa da atividade no Moodle.
 
