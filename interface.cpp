@@ -1,11 +1,12 @@
 // executar: g++ interface.cpp -o interface
+// Interface do código
 #include <iostream>
 #include "fila.hpp"
 
 int main()
 {
-    Fila<int> *fila;
-    fila = new Fila<int>();
+    Fila<int> *fila;        // cria fila
+    fila = new Fila<int>(); // inicia
     int num;
     int op;
 

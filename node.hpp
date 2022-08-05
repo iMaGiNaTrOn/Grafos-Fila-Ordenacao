@@ -1,6 +1,8 @@
+// código que forma a classe nodo onde armazenamos os dados d anossa fila e armazenamos o ponteiro para o próximo elementos
 #ifndef NODE_HPP
 #define NODE_HPP
 template <typename TipoInfo>
+// classe
 class Node
 {
 private:
@@ -11,6 +13,7 @@ public:
     Node();  // construtor
     ~Node(); // destruidor
 
+    // funções de get e set
     TipoInfo getDados();
     void setDados(TipoInfo dados);
     Node<TipoInfo> *getProximo();

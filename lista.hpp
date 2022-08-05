@@ -1,3 +1,4 @@
+// Código com a classe lista, onde recebera o inicio, fim e tamanho dela. Foi implementado apenas as funções qu euma fila precisa, como append no fim e remover no inicio
 #ifndef LISTA_HPP
 #define LISTA_HPP
 #include "node.hpp"
@@ -11,7 +12,7 @@ private:
     int tamanho;
 
 public:
-    // construtot e destruidor
+    // construtor e destruidor
     Lista();
     ~Lista();
     // get
@@ -27,6 +28,7 @@ public:
     TipoInfo removeFirst();
     void showList();
 };
+// construtor
 template <typename TipoInfo>
 Lista<TipoInfo>::Lista()
 {
@@ -34,6 +36,7 @@ Lista<TipoInfo>::Lista()
     fim = nullptr;
     tamanho = 0;
 }
+// destruidor
 template <typename TipoInfo>
 Lista<TipoInfo>::~Lista()
 {
@@ -73,6 +76,7 @@ void Lista<TipoInfo>::setTamanho(int tamanho)
     this->tamanho = tamanho;
 }
 // funções
+// adiciona no final
 template <typename TipoInfo>
 void Lista<TipoInfo>::append(TipoInfo dado)
 {
@@ -91,6 +95,7 @@ void Lista<TipoInfo>::append(TipoInfo dado)
     }
     tamanho++;
 }
+// remove o primeiro
 template <typename TipoInfo>
 TipoInfo Lista<TipoInfo>::removeFirst()
 {
@@ -121,6 +126,7 @@ TipoInfo Lista<TipoInfo>::removeFirst()
 
     return aux;
 }
+// mostra lista
 template <typename TipoInfo>
 void Lista<TipoInfo>::showList()
 {
