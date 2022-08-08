@@ -1,4 +1,4 @@
-// código que forma a classe nodo onde armazenamos os dados d anossa fila e armazenamos o ponteiro para o próximo elementos
+// código que forma a classe nodo onde armazenamos os dados da nossa fila e armazenamos o ponteiro para o próximo elementos
 #ifndef NODE_HPP
 #define NODE_HPP
 template <typename TipoInfo>

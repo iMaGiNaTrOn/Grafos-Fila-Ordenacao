@@ -1,4 +1,4 @@
-// executar: g++ interface.cpp -o interface
+// executar: make run
 // Interface do código
 #include <iostream>
 #include "fila.hpp"
